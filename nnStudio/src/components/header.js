@@ -1,9 +1,14 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
-const Header = ({ siteTitle }) => (
-  <header className="bg-blue-500">
-  </header>
-)
+
+function Header ({ siteTitle, data }) {
+  return (
+    <header className="h-screen bg-black">
+      <StaticImage src="../images/mainPhoto.jpg" alt="NicolStudioHeaderBG" className="w-full h-full opacity-60"/>
+   </header>
+    )
+}
 
 export default Header
