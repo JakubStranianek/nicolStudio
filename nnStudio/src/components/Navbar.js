@@ -6,18 +6,18 @@ import Switch from './ToggleSwitch'
 import { Link } from "gatsby"
 
 const navigation = [
-    { name: 'Domov', href: '#' },
+    { name: 'Domov', href: '/' },
     { name: 'O mne', href: '#' },
     { name: 'Služby', href: '#' },
     { name: 'Cenník', href: '#' },
-    { name: 'Kontakt', href: '#' },
+    { name: 'Kontakt', href: '/#kontakt' },
   ]
 
 export default function Navbar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="absolute inset-x-0 top-0 z-50">
+    <header className="absolute inset-x-0 top-0 z-50" id='header'>
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <Link href="#" className="-m-1.5 p-1.5">

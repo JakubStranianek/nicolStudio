@@ -1,19 +1,32 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
+import Header from "../components/header"
+import Contact from "../components/Contact"
+import About from "../components/About"
 
-
+import { useStaticQuery, graphql } from "gatsby"
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
-const IndexPage = () => (
-  <Layout>
-    <h2 className="text-blue-500" >Hi people</h2>
-  </Layout>
-)
+const IndexPage = () => {
+  const data = useStaticQuery(graphql`
+    query SiteTitleQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `)
+
+  return (
+    <Layout>
+      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <About />
+      <Contact />
+    </Layout>
+    )
+}
 
 /**
  * Head export to define metadata for the page
