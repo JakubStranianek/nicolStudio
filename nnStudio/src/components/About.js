@@ -49,10 +49,10 @@ export default function About() {
                     Meníme vaše vlasy a zanechávame za sebou lesk nekonečnej krásy
                   </h1>
                   <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                    Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in quis cupidatat mollit aute velit. Et
-                    labore commodo nulla aliqua proident mollit ullamco exercitation tempor. Sint aliqua anim nulla sunt
-                    mollit id pariatur in voluptate cillum. Eu voluptate tempor esse minim amet fugiat veniam occaecat
-                    aliqua.
+                  Vítam vás v svete vlasovej krásy, kde sa špecializujem na ošetrovanie vlasov pomocou rôznych metód.
+                  Verím, že každý prameň vlasov hovorí svoj jedinečný príbeh. Spoločne budeme objavovať váš štýl a vytvárať
+                  ošetrenia, ktoré vám dodajú sebavedomie a potešenie. Vaša spokojnosť a úžasné výsledky sú pre mňa na prvom mieste.
+                  Navštívte ma v Žiline na ulici Jánošíkova 264/19 a dovoľte mi ukázať vám svet vlasovej krásy a inovácií.
                   </p>
                 </div>
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">

@@ -4,6 +4,7 @@ import Seo from "../components/seo"
 import Header from "../components/header"
 import Contact from "../components/Contact"
 import About from "../components/About"
+import Reviews from "../components/Reviews"
 
 import { useStaticQuery, graphql } from "gatsby"
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
@@ -23,6 +24,7 @@ const IndexPage = () => {
     <Layout>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <About />
+      <Reviews />
       <Contact />
     </Layout>
     )

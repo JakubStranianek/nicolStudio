@@ -29,8 +29,8 @@ function Header ({ siteTitle }) {
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-green-900 to-green-200 sm:text-6xl sm:leading-tight">
-            Vlasy sú vrcholom ženskej krásy.
+            <h1 className="text-4xl font-bold tracking-tight py-3 text-transparent bg-clip-text bg-gradient-to-r from-green-900 to-green-200 sm:text-6xl sm:leading-tight">
+            Vlasy sú vrcholom<br/> ženskej krásy
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-400">
             Koruna krásy, ktorá rozžiari tvoj svet. Zabudni na starosti s vlasmi a dodaj svojim vlasom
