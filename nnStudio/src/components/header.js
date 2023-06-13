@@ -3,8 +3,7 @@ import { Link } from "gatsby"
 
 function Header ({ siteTitle }) {
 
-  return (
-   <div className="">  
+  return ( 
       <div className="relative isolate overflow-hidden">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -49,8 +48,7 @@ function Header ({ siteTitle }) {
             </div>
           </div>
         </div>       
-      </div>
-    </div>
+      </div>    
     )
 }
 
